@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="892204a6-dd81-4742-8ac0-ea9aed47bc75" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b4WCr1yccnzxcyrOhZuX1TQYpC" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.silmaapps.websockets.application.notifications" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/infrastructure" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="WebsocketsApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="websockets.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.silmaapps.websockets.infrastructure.WebsocketsApplicationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.WebsocketsApplicationKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="892204a6-dd81-4742-8ac0-ea9aed47bc75" name="Default Changelist" comment="" />
+      <created>1587891721018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587891721018</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1071" y="414" key="#com.intellij.ide.util.MemberChooser" timestamp="1588324717956">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1071" y="414" key="#com.intellij.ide.util.MemberChooser/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588324717956" />
+    <state x="785" y="624" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587925669875">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="785" y="624" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1587925669875" />
+    <state width="2518" height="467" key="GridCell.Tab.0.bottom" timestamp="1588414967595">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1588355271617" />
+    <state width="2518" height="467" key="GridCell.Tab.0.bottom/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588414967595" />
+    <state width="2518" height="467" key="GridCell.Tab.0.center" timestamp="1588414967594">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1588355271616" />
+    <state width="2518" height="467" key="GridCell.Tab.0.center/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588414967594" />
+    <state width="2518" height="467" key="GridCell.Tab.0.left" timestamp="1588414967593">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1588355271616" />
+    <state width="2518" height="467" key="GridCell.Tab.0.left/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588414967593" />
+    <state width="2518" height="467" key="GridCell.Tab.0.right" timestamp="1588414967594">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1588355271617" />
+    <state width="2518" height="467" key="GridCell.Tab.0.right/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588414967594" />
+    <state width="2518" height="467" key="GridCell.Tab.1.bottom" timestamp="1588414967472">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1588355271619" />
+    <state width="2518" height="467" key="GridCell.Tab.1.bottom/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588414967472" />
+    <state width="2518" height="467" key="GridCell.Tab.1.center" timestamp="1588414967471">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1588355271618" />
+    <state width="2518" height="467" key="GridCell.Tab.1.center/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588414967471" />
+    <state width="2518" height="467" key="GridCell.Tab.1.left" timestamp="1588414967471">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1588355271618" />
+    <state width="2518" height="467" key="GridCell.Tab.1.left/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588414967471" />
+    <state width="2518" height="467" key="GridCell.Tab.1.right" timestamp="1588414967471">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1588355271619" />
+    <state width="2518" height="467" key="GridCell.Tab.1.right/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588414967471" />
+    <state x="709" y="305" key="new project wizard" timestamp="1587891737837">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="709" y="305" key="new project wizard/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1587891737837" />
+  </component>
+</project>

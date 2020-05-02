@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Getting Started: Serving Web Content</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        <p th:text="'Hello, ' + ${officeId} + '!'" />
+        <div id="container"></div>
+    </body>
+    <script th:inline="javascript">
+        /*<![CDATA[*/
+            var officeId = /*[[${officeId}]]*/ '';
+        /*]]>*/
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script>
+        (function(){
+            var __print = function(from, text){
+                var container = document.getElementById('container');
+                var p = document.createElement('p');
+                p.innerText = 'from:' + from + ' ' + text;
+                container.appendChild(p)
+            };
+            var ws = new SockJS("/notifications");
+            var stompClient = Stomp.over(ws);
+            var headers = {
+                officeId: officeId
+            };
+
+            stompClient.connect(headers, function(frame){
+                stompClient.subscribe("/topic/notifications", function(data){
+                    //console.log("Received:" + data);
+                    __print('topic',data.body);
+                });
+
+                stompClient.subscribe('/queue/' + officeId, function(data){
+                    //console.log("Received:" + data);
+                    __print('queue', data.body);
+                });
+
+            }, function(error){
+                console.log("STOMP protocol error:" + error);
+            });
+
+        })();
+    </script>
+</html>

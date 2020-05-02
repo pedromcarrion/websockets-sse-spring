@@ -1,0 +1,15 @@
+<html>
+<body>
+    <div>
+        <h1>Websockets test</h1>
+    </div>
+
+    <script>
+        var source = new EventSource("/register-notifications");
+
+        source.addEventListener('spring', function(event){
+            console.log(event.data);
+        });
+    </script>
+</body>
+</html>
