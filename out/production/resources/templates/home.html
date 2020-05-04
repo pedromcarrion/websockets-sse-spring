@@ -1,12 +1,19 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
     <head>
-        <title>Getting Started: Serving Web Content</title>
+        <title>Websockets</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css">
     </head>
     <body>
-        <p th:text="'Hello, ' + ${officeId} + '!'" />
-        <div id="container"></div>
+
+        <section class="section cards">
+            <div class="container">
+                <p th:text="'Hello, ' + ${officeId} + '!'" />
+                <div id= "notifications" class="is-multiline">
+                </div>
+            </div>
+        </section>
     </body>
     <script th:inline="javascript">
         /*<![CDATA[*/
@@ -19,10 +26,11 @@
     <script>
         (function(){
             var __print = function(from, text){
-                var container = document.getElementById('container');
-                var p = document.createElement('p');
-                p.innerText = 'from:' + from + ' ' + text;
-                container.appendChild(p)
+                var container = document.getElementById('notifications');
+                var div = document.createElement('div');
+                div.className =  'notification ' + (from == 'topic' ? 'is-primary' : 'is-success');
+                div.innerText = 'from:' + from + ' ' + text;
+                container.appendChild(div)
             };
             var ws = new SockJS("/notifications");
             var stompClient = Stomp.over(ws);
@@ -33,7 +41,7 @@
             stompClient.connect(headers, function(frame){
                 stompClient.subscribe("/topic/notifications", function(data){
                     //console.log("Received:" + data);
-                    __print('topic',data.body);
+                    __print('topic', data.body);
                 });
 
                 stompClient.subscribe('/queue/' + officeId, function(data){

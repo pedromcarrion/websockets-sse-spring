@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Server send events</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css">
+</head>
+<body>
+    <section class="section cards">
+        <div class="container">
+            <div id= "notifications" class="is-multiline"></div>
+        </div>
+    </section>
+    <script>
+        (function(){
+            var __print = function(text){
+                var container = document.getElementById('notifications');
+                var div = document.createElement('div');
+                div.className =  'notification is-primary';
+                div.innerText = text;
+                container.appendChild(div)
+            };
+            var source = new EventSource('/register-server-send-events');
+            source.addEventListener('serverSendEvents', function(event){
+                __print(event.data)
+            });
+        })();
+    </script>
+</body>
+</html>
