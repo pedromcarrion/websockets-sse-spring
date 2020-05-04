@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="892204a6-dd81-4742-8ac0-ea9aed47bc75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/infrastructure/controllers/SseController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/infrastructure/streams/consumer/NotificationsConsumer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/application/notifications/Notification$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/application/notifications/Notification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/application/notifications/NotificationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/application/notifications/NotificationToUser$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/application/notifications/NotificationToUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/infrastructure/configuration/ApplicationConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/infrastructure/configuration/ApplicationConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/infrastructure/controllers/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/infrastructure/controllers/NotificationsControllerWS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/application/notifications/Notification.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/infrastructure/streams/consumer/NotificationEvent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/application/notifications/NotificationService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/application/notifications/NotificationToUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/infrastructure/streams/consumer/NotificationToUserEvent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/infrastructure/configuration/ApplicationConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/infrastructure/configuration/ApplicationConfiguration.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/infrastructure/controllers/HomeController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/infrastructure/controllers/WebSocketsController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/silmaapps/websockets/infrastructure/controllers/NotificationsControllerWS.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/websockets.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/infrastructure/WebsocketsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/infrastructure/WebsocketsApplicationKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/infrastructure/configuration/ApplicationConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/infrastructure/configuration/WebSocketBrokerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/infrastructure/websockets/HandShakeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/infrastructure/websockets/NotificationsHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/silmaapps/websockets/infrastructure/websockets/StompPrincipal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/home.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +103,19 @@
       <option name="presentableId" value="Default" />
       <updated>1587891721018</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added sse and readme">
+      <created>1588579110595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588579110596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added sse and readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added sse and readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1071" y="414" key="#com.intellij.ide.util.MemberChooser" timestamp="1588324717956">
@@ -131,10 +134,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="982" y="351" width="597" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588575193108" />
-    <state x="797" y="292" key="CommitChangelistDialog2" timestamp="1588579072228">
+    <state x="797" y="292" key="CommitChangelistDialog2" timestamp="1588579110334">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="797" y="292" key="CommitChangelistDialog2/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588579072228" />
+    <state x="797" y="292" key="CommitChangelistDialog2/2560.773.1440.877/0.23.2560.1337@0.23.2560.1337" timestamp="1588579110334" />
     <state width="2518" height="467" key="GridCell.Tab.0.bottom" timestamp="1588579046515">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
