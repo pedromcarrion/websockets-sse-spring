@@ -6,12 +6,16 @@
 1. Conocer las diferentes técnicas para enviar comunicaciones desde servidor a cliente sin hacer polling
 2. Implementación de ejemplo de Server send events
 3. Implementación de ejempllo de websockets usando un broker en memoria
+
+## Server send events
+
+Probar la técnica server send events con long polling
     
 ## Websockets
 
 Dentro de los websockets el objetivo es simular el envio de notificaciones a los clientes de manera genérica y a unos clientes en concreto.
 
-## Probar Server end events
+## Probar Server send events
     1. Hacer run del proyecto ya sea con gradlew o con IntelliJ
     2. Hacer una petición GET a: http://localhost:8080/serverSendEvents
     3. Esperar y ver como llegan las notificaciones
